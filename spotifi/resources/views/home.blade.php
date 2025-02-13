@@ -17,7 +17,7 @@
     <script>
         window.onSpotifyWebPlaybackSDKReady = () => {
             const token =
-                'BQBB5efGXj0lTsrJhWaedRQAqslXT3CPPpHFnRRtq0ZUhwOdX4nsnNG5LoNNKaO9B6soA7s7unSxFdXPurbp9k2Ir7Yw55Dp2GRK6fwH8ilS_Vt8gGOapcbJkLgHD9_BAPf8JrFY1RJhAiiIjygG-O7unDY_U2_NCqm1O50fe24Phv8gqSAnXlzMbk0HEfrdeRpOUONeRPTp7kaMzf7HQqDKqh1J7_py9L6BjmbkJGeIIA5zF4f2DUGr2fLoyfl4';
+                'BQCZonTMyyLAbXK-g37jwqEYhpvUZ_Wo1Tdu3zPsq_DvgwBKphCfmjr4Ri4Y2oOfTMsJl3q8Q9eKgGdNqcmkGJ3dVbQ_8FEfP2_q80IvMuMD398aNOlDsMFxWO2v3Q9ICXU58dvFXR_TR_cjgRQU45nJVmYH-AO4-uW7VXj_CuH_fl54nDgvzwObRTd2YhaS7GqQlNHj9CNV0YWlHll1RkhLPnvcNrZPPib198DVMJeYScQ_mb0OuDkNH-ZbEwP1';
             const player = new Spotify.Player({
                 name: 'Web Playback SDK Quick Start Player',
                 getOAuthToken: cb => {
@@ -29,6 +29,8 @@
             if (true) {
                 console.log(token);
             };
+
+
 
             // Ready
             player.addListener('ready', ({
